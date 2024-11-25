@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iac-vpc
+  description: |
+    IaC for VPC in AWS.
+  links:
+    - url: https://github.com/somospragma/cloudops-ref-repo-aws-vpc-terraform
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-a
